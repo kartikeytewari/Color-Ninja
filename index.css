@@ -1,0 +1,47 @@
+.header
+{
+    background-color: #004d80;
+    text-align: center;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+body
+{
+    background-color: #002e4d;
+}
+
+.level_selector
+{
+    width: 60%;
+    margin: 5% auto;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+a
+{
+    color: white;
+}
+
+.lower
+{
+    font-weight: 400;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    padding:1.5%;
+}
+
+.right
+{
+    position:fixed;
+    right: 5%;
+}
+
+td
+{
+    color: white;
+}
