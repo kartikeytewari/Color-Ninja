@@ -1,4 +1,4 @@
-var color_set;
+var color_set={};
 for (let i=0;i<=5;i++)
 {
     let a=Math.floor((Math.random()*255)+1);
