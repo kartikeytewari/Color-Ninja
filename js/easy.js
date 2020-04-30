@@ -3,6 +3,9 @@ let red_display=document.querySelector(".red_display");
 let green_display=document.querySelector(".green_display");
 let blue_display=document.querySelector(".blue_display");
 let score_display=document.querySelector(".score_display");
+let red_bar=document.querySelector(".red_bar");
+let green_bar=document.querySelector(".green_bar");
+let blue_bar=document.querySelector(".blue_bar");
 let color={};
 let listen={};
 
@@ -23,9 +26,12 @@ for (let i=0;i<=square.length-1;i++)
 }
 
 let ans=Math.floor((Math.random()*square.length));
-red_display.innerHTML=Math.floor((color[ans].r/255)*100);
-green_display.innerHTML=Math.floor((color[ans].g/255)*100);
-blue_display.innerHTML=Math.floor((color[ans].b/255)*100);
+red_display.innerHTML=Math.floor((color[ans].r/255)*100) + '%';
+green_display.innerHTML=Math.floor((color[ans].g/255)*100) + '%';
+blue_display.innerHTML=Math.floor((color[ans].b/255)*100) + '%';
+red_bar.style.width=red_display.innerHTML;
+green_bar.style.width=green_display.innerHTML;
+blue_bar.style.width=blue_display.innerHTML;
 
 
 var score=5;

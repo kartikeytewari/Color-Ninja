@@ -10,9 +10,29 @@
         
         <div class="jumbotron header">
             <h1>Choose the target color</h1>
-            <h2>Red:<span class="red_display">0</span>%
-                Green:<span class="green_display">0</span>%
-                Blue:<span class="blue_display">0</span>%</h2>
+            <h2>
+            <div class="table tr color_bar_container">
+                
+                <div class="td col-md-4 color_bar">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-danger red_bar" style="width: 25%"><span class="red_display">0</span></div>
+                    </div>
+                </div>
+                
+                <div class="td col-md-4 color_bar">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-success green_bar" style="width: 25%;"><span class="green_display">0</span></div>
+                    </div>
+                </div>
+
+                <div class="td col-md-4 color_bar">
+                    <div class="progress">
+                      <div class="progress-bar blue_bar" style="width: 25%;"><span class="blue_display">0</span></div>
+                    </div>
+                </div>
+
+            </div>
+            </h2>
         </div>
 
         <div class="square_set">

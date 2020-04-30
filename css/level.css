@@ -9,7 +9,6 @@ body
     text-align: center;
     color: white;
     padding-top: 1%;
-    padding-bottom: 1%;
 }
 
 .lower
@@ -55,4 +54,16 @@ td
     padding-top: 28%;
     text-align: center;
     font-size: 20px;
+}
+
+.color_bar
+{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.color_bar_container
+{
+    padding-right: 9%;
+    padding-left: 9%;
 }
