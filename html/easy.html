@@ -3,14 +3,17 @@
         <title>
             easy level
         </title>
+        <!-- css file linking -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="../css/level.css">
     </head>
     <body>
         
+        <!-- header code -->
         <div class="jumbotron header">
             <h1>Choose the target color</h1>
             <h2>
+                <!-- progress bar integration -->
             <div class="table tr color_bar_container">
                 
                 <div class="td col-md-4 color_bar">
@@ -35,6 +38,8 @@
             </h2>
         </div>
 
+    
+        <!-- color tiles with random colors -->
         <div class="square_set">
             <div class="square"></div>
             <div class="square"></div>
@@ -44,11 +49,14 @@
             <div class="square"></div>
         </div>
 
-        <div class="score_card">
+        <!-- attempt count display and home button -->
+        <div class="attempt_card">
             <button class="btn btn-success btn-lg">Attempt:<span class="attempt_display"> 0 </span> </button>
             <a href="../index.html"> <button class="btn btn-success btn-lg">Home</button> </a>
         </div>
 
+
+        <!-- footer integration -->
         <div class="lower">
             <table><tr>
                 <td>
@@ -62,6 +70,7 @@
             </tr></table>
         </div>
         
+        <!-- script linking -->
         <script src="../js/easy.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

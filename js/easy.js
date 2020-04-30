@@ -1,3 +1,4 @@
+// variable declaration
 let square=document.querySelectorAll(".square");
 let red_display=document.querySelector(".red_display");
 let green_display=document.querySelector(".green_display");
@@ -9,6 +10,7 @@ let blue_bar=document.querySelector(".blue_bar");
 let color={};
 let listen={};
 
+// randomising algorithm
 let min=1;
 let max=255;
 for (let i=0;i<=square.length-1;i++)
@@ -20,11 +22,13 @@ for (let i=0;i<=square.length-1;i++)
     color[i]={r,g,b};
 }
 
+// color assigning
 for (let i=0;i<=square.length-1;i++)
 {
     square[i].style.background="rgb("+color[i].r+", "+color[i].g+", "+color[i].b+")";
 }
 
+// pigment color bar printing
 let ans=Math.floor((Math.random()*square.length));
 red_display.innerHTML=Math.floor((color[ans].r/255)*100) + '%';
 green_display.innerHTML=Math.floor((color[ans].g/255)*100) + '%';
@@ -33,7 +37,7 @@ red_bar.style.width=red_display.innerHTML;
 green_bar.style.width=green_display.innerHTML;
 blue_bar.style.width=blue_display.innerHTML;
 
-
+// logic of game
 var score=5;
 attempt_display.innerHTML=0;
 for (let i=0;i<=square.length-1;i++)
