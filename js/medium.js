@@ -15,9 +15,9 @@ let min=Math.floor(Math.random()*4)*60;
 let max=min+60;
 for (let i=0;i<=square.length-1;i++)
 {
-    let r=Math.floor((Math.random()*max)+min);
-    let g=Math.floor((Math.random()*max)+min);
-    let b=Math.floor((Math.random()*max)+min);
+    let r=Math.floor((Math.random()*60)+min);
+    let g=Math.floor((Math.random()*60)+min);
+    let b=Math.floor((Math.random()*60)+min);
 
     color[i]={r,g,b};
 }

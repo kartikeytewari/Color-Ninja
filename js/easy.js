@@ -15,9 +15,9 @@ let min=1;
 let max=255;
 for (let i=0;i<=square.length-1;i++)
 {
-    let r=Math.floor((Math.random()*max)+min);
-    let g=Math.floor((Math.random()*max)+min);
-    let b=Math.floor((Math.random()*max)+min);
+    let r=Math.floor((Math.random()*254)+min);
+    let g=Math.floor((Math.random()*254)+min);
+    let b=Math.floor((Math.random()*254)+min);
 
     color[i]={r,g,b};
 }
