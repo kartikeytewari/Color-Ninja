@@ -2,7 +2,7 @@ let square=document.querySelectorAll(".square");
 let red_display=document.querySelector(".red_display");
 let green_display=document.querySelector(".green_display");
 let blue_display=document.querySelector(".blue_display");
-let score_display=document.querySelector(".score_display");
+let attempt_display=document.querySelector(".attempt_display");
 let red_bar=document.querySelector(".red_bar");
 let green_bar=document.querySelector(".green_bar");
 let blue_bar=document.querySelector(".blue_bar");
@@ -35,7 +35,7 @@ blue_bar.style.width=blue_display.innerHTML;
 
 
 var score=5;
-score_display.innerHTML=score;
+attempt_display.innerHTML=0;
 for (let i=0;i<=square.length-1;i++)
 {
     square[i].addEventListener("click", function()
@@ -76,7 +76,7 @@ for (let i=0;i<=square.length-1;i++)
             score--;
         }
 
-        score_display.innerHTML=score;
+        attempt_display.innerHTML=i+1;
     })
 }
 
