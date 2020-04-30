@@ -42,12 +42,36 @@ for (let i=0;i<=square.length-1;i++)
     {
         if (i==ans)
         {
-            console.log("correct");
+            // correct answer
             i=6;
+            if (score==0)
+            {
+                window.location.replace("score_0.html");
+            }
+            else if (score==1)
+            {
+                window.location.replace("score_1.html");
+            }
+            else if (score==2)
+            {
+                window.location.replace("score_2.html");
+            }
+            else if (score==3)
+            {
+                window.location.replace("score_3.html");
+            }
+            else if (score==4)
+            {
+                window.location.replace("score_4.html");
+            }
+            else if (score==5)
+            {
+                window.location.replace("score_5.html");
+            }
         }
         else
         {
-            console.log("wrong");
+            // wrong answer
             square[i].style.background="#232323";
             score--;
         }
