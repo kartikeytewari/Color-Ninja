@@ -8,6 +8,66 @@
     </head>
     <body>
         
+          <!-- header code -->
+          <div class="jumbotron header">
+            <h1>Choose the target color</h1>
+            <h2>
+                <!-- progress bar integration -->
+            <div class="table tr color_bar_container">
+                
+                <div class="td col-md-4 color_bar">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-danger red_bar" style="width: 25%"><span class="red_display">0</span></div>
+                    </div>
+                </div>
+                
+                <div class="td col-md-4 color_bar">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-success green_bar" style="width: 25%;"><span class="green_display">0</span></div>
+                    </div>
+                </div>
+
+                <div class="td col-md-4 color_bar">
+                    <div class="progress">
+                      <div class="progress-bar blue_bar" style="width: 25%;"><span class="blue_display">0</span></div>
+                    </div>
+                </div>
+
+            </div>
+            </h2>
+        </div>
+
+    
+        <!-- color tiles with random colors -->
+        <div class="square_set">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+
+        <!-- attempt count display and home button -->
+        <div class="attempt_card">
+            <button class="btn btn-success btn-lg">Attempt:<span class="attempt_display"> 0 </span> </button>
+            <a href="../index.html"> <button class="btn btn-success btn-lg">Home</button> </a>
+        </div>
+
+
+        <!-- footer integration -->
+        <div class="lower">
+            <table><tr>
+                <td>
+                    All rights reserved.<br>
+                    MIT License 2020
+                </td>
+                <td class="right">
+                    A Kartikey Tewari Product<br>
+                    Made in India
+                </td>
+            </tr></table>
+        </div>
         
         
         <script src="../js/medium.js"></script>
