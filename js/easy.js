@@ -23,9 +23,9 @@ for (let i=0;i<=square.length-1;i++)
 }
 
 let ans=Math.floor((Math.random()*square.length));
-red_display.innerHTML=color[ans].r;
-green_display.innerHTML=color[ans].g;
-blue_display.innerHTML=color[ans].b;
+red_display.innerHTML=Math.floor((color[ans].r/255)*100);
+green_display.innerHTML=Math.floor((color[ans].g/255)*100);
+blue_display.innerHTML=Math.floor((color[ans].b/255)*100);
 
 
 var score=5;
