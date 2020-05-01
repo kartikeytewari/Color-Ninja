@@ -11,7 +11,7 @@ let color={};
 let listen={};
 
 // randomising algorithm
-let min=Math.floor(Math.random()*6)*40;
+let min=(Math.floor(Math.random()*5)+1)*40;
 let max=min+40;
 for (let i=0;i<=square.length-1;i++)
 {
