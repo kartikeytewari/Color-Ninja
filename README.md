@@ -3,7 +3,7 @@ The place to become the next Color Ninja
 
 Amid the pandemic of coronavirus-19, here's a fun game for you. This is the Color Ninja game, for the bored folks. The game will give you percentage values each of red, green and blue pigments. When you add these pigments a color will be made. It is one of the colors that you see in the tiles. Choose it in as less choice as you can, and you get a score. The player with the highest score wins the game. Feel free to ping to ping me for any bugs or features!
 
-The live of the app is <a herf="https://kartikeytewari.github.io/Color-Ninja/">here</a>.
+The live of the app is <a href="https://kartikeytewari.github.io/Color-Ninja/">here</a>.
 
 <hr>
 The tech stack used is:
