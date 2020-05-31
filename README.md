@@ -24,4 +24,4 @@ Instructions to run the application in your local machine:
   <li> Double click the file index.html to open the application </li>
 </ol>
 
-The website is live on <a href="https://kartikeytewari.github.io/Color-Ninja/">this</a> linkhttps://github.com/kartikeytewari/Color-Ninjak.
+The website is live on <a href="https://kartikeytewari.github.io/Color-Ninja/">this</a> link.
